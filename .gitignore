@@ -1,0 +1,29 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Local environment
+.env
+
+# IDE
+.idea/
+.vscode/
+
+# Test reports and failure artifacts
+reports/allure-results/
+reports/allure-report/
+reports/page_sources/
+screenshots/
+
+# Temporary Android UI hierarchy files
+data/*.xml
+
+# Third-party application binaries
+apps/*.apk
+
+# System files
+.DS_Store
+Thumbs.db
